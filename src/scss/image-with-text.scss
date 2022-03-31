@@ -1,7 +1,7 @@
 @use "./variables.scss";
 @use "./grid.scss" as grid;
 
-.reverse .image-with-text {
+.image-with-text.reverse {
   margin-top: 0;
 
   @include grid.media-breakpoint-up(tablet) {
