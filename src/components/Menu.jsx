@@ -58,16 +58,13 @@ const Menu = () => {
 
       {/* Beans */}
       <div className="bean wiggle menu__bean-1">
-        <img id="bean-1" src="" alt="coffe bean" />
+        <img id="bean-1" src="./src/graphics/bean-1.png" alt="coffe bean" />
       </div>
       <div className="bean wiggle menu__bean-2">
-        <img id="bean-2" src="" alt="coffe bean" />
+        <img id="bean-2" src="./src/graphics/bean-2.png" alt="coffe bean" />
       </div>
       <div className="bean wiggle menu__bean-3">
-        <img id="bean-4" src="" alt="coffe bean" />
-      </div>
-      <div className="menu__image">
-        <img id="bean-4" src="" alt="coffe bean" />
+        <img id="bean-4" src="./src/graphics/bean-4.png" alt="coffe bean" />
       </div>
 
       <div className="menu__border">
@@ -90,13 +87,13 @@ const Menu = () => {
 
       {/* Beans */}
       <div className="bean wiggle menu__bean-4">
-        <img id="bean-1" src="" alt="coffe bean" />
+        <img id="bean-1" src="./src/graphics/bean-1.png" alt="coffe bean" />
       </div>
       <div className="bean wiggle menu__bean-5">
-        <img id="bean-2" src="" alt="coffe bean" />
+        <img id="bean-2" src="./src/graphics/bean-2.png" alt="coffe bean" />
       </div>
       <div className="bean wiggle menu__bean-6">
-        <img id="bean-4" src="" alt="coffe bean" />
+        <img id="bean-4" src="./src/graphics/bean-4.png" alt="coffe bean" />
       </div>
     </div>
   );

@@ -6,13 +6,13 @@ const Contact = () => {
 
         {/* Beans */}
         <div className="bean wiggle contact__bean-1">
-          <img id="bean-1" src="" alt="coffe bean" />
+          <img id="bean-1" src="./src/graphics/bean-1.png" alt="coffe bean" />
         </div>
         <div className="bean wiggle contact__bean-2">
-          <img id="bean-2" src="" alt="coffe bean" />
+          <img id="bean-2" src="./src/graphics/bean-2.png" alt="coffe bean" />
         </div>
         <div className="bean wiggle contact__bean-3">
-          <img id="bean-4" src="" alt="coffe bean" />
+          <img id="bean-4" src="./src/graphics/bean-3.png" alt="coffe bean" />
         </div>
 
         <div className="map">

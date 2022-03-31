@@ -12,6 +12,7 @@ function App() {
         <Hero />
       </div>
       <div className="wide-content">
+        <span id="about"></span>
         <div className="image-with-text">
           <ImageWithText
             image={"./src/graphics/coffe-shop.png"}

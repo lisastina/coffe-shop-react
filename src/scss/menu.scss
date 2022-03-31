@@ -1,5 +1,5 @@
 @use "./variables.scss";
-// @use '../general/grid.scss' as grid;
+@use "./grid.scss" as grid;
 
 .menu {
   display: flex;
@@ -10,10 +10,10 @@
   margin: 1.5rem;
   padding: 1.8rem;
 
-  /*  @include grid.media-breakpoint-up(tablet-landscape) {
+  @include grid.media-breakpoint-up(tablet-landscape) {
     margin: 6rem;
     padding: 3.5rem;
-  } */
+  }
 
   &__title {
     font-size: 1.5rem;
@@ -25,21 +25,21 @@
     top: -18px;
     left: 10px;
 
-    /*   @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       font-size: 2rem;
       padding: 0 1.2rem;
       top: -25px;
-    } */
+    }
   }
 
   &__image {
     width: 100%;
     margin-bottom: 1rem;
 
-    /*   @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       width: 60%;
       margin-bottom: 2rem;
-    } */
+    }
 
     img {
       width: 100%;
@@ -54,9 +54,9 @@
     width: 100%;
     box-sizing: border-box;
 
-    /*  @include grid.media-breakpoint-up(tablet) {
+    @include grid.media-breakpoint-up(tablet) {
       padding: 4rem;
-    } */
+    }
   }
 
   &__items {
@@ -74,9 +74,9 @@
   color: variables.$blue;
   align-items: center;
 
-  /*  @include grid.media-breakpoint-up(tablet-landscape) {
+  @include grid.media-breakpoint-up(tablet-landscape) {
     gap: 2rem;
-  } */
+  }
 
   &__image-and-desc {
     display: flex;
@@ -84,35 +84,35 @@
     gap: 1rem;
     align-items: center;
 
-    /*   @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       gap: 2rem;
-    } */
+    }
   }
 
   &__text {
     display: flex;
     flex-direction: column;
     gap: 0.2rem;
-    /* 
+
     @include grid.media-breakpoint-up(tablet-landscape) {
       gap: 0.5rem;
-    } */
+    }
   }
 
   &__title {
     font-size: 1.2rem;
 
-    /*  @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       font-size: 1.5rem;
-    } */
+    }
   }
 
   &__desc {
     font-size: 1rem;
 
-    /*  @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       font-size: 1.3rem;
-    } */
+    }
   }
 
   &__image {
@@ -121,9 +121,9 @@
     min-width: 45px;
     aspect-ratio: 1 / 1;
 
-    /*   @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       max-width: 70px;
-    } */
+    }
 
     img {
       width: 100%;
@@ -136,8 +136,8 @@
     font-size: 1rem;
     font-family: map-get(variables.$font-family, chelsea-pro);
 
-    /*   @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       font-size: 1.5rem;
-    } */
+    }
   }
 }

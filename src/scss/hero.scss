@@ -1,5 +1,5 @@
 @use "./variables.scss";
-// @use '../general/grid.scss' as grid;
+@use "./grid.scss" as grid;
 
 .hero {
   background-color: #fff;
@@ -15,9 +15,9 @@
     margin: 1.3rem 0 0.5rem 0;
     text-align: center;
 
-    /* @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       font-size: 2.5rem;
-    } */
+    }
   }
   &__subtitle {
     color: variables.$blue;
@@ -28,9 +28,9 @@
     width: 130%;
     margin-bottom: 1.3rem;
 
-    /* @include grid.media-breakpoint-up(tablet) {
+    @include grid.media-breakpoint-up(tablet) {
       width: 65%;
-    } */
+    }
 
     img {
       width: 100%;

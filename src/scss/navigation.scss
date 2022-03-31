@@ -1,5 +1,5 @@
 @use "./variables.scss";
-// @use '../general/grid.scss' as grid;
+@use "./grid.scss" as grid;
 
 .nav {
   margin: 2rem auto 0;
@@ -18,12 +18,12 @@
     font-weight: 700;
     padding: 0 1rem;
 
-    /*   @include grid.media-breakpoint-up(tablet-landscape) {
+    @include grid.media-breakpoint-up(tablet-landscape) {
       font-size: 1.5rem;
-    } */
+    }
 
     &:hover {
-      background: url("./src/graphics/link-hover.gif") no-repeat;
+      background: url("../assets/graphics/link-hover-blue.gif") no-repeat;
       background-size: contain;
       background-position: center;
     }
