@@ -8,20 +8,20 @@ const Contact = () => {
 
         {/* Beans */}
         <div className="bean wiggle contact__bean-1">
-          <Bean image={"public/assets/bean-1.png"} />
+          <Bean image={"/assets/bean-1.png"} />
         </div>
         <div className="bean wiggle contact__bean-2">
-          <Bean image={"public/assets/bean-2.png"} />
+          <Bean image={"/assets/bean-2.png"} />
         </div>
         <div className="bean wiggle contact__bean-3">
-          <Bean image={"public/assets/bean-4.png"} />
+          <Bean image={"/assets/bean-4.png"} />
         </div>
 
         <div className="map">
           <h2 className="contact__title">Visit us</h2>
 
           <div className="map__image">
-            <img src="public/assets/map.png" alt="map" />
+            <img src="/assets/map.png" alt="map" />
           </div>
         </div>
         <div>
@@ -41,7 +41,7 @@ const Contact = () => {
             </ul>
 
             <div className="contact-info__image">
-              <img src="public/assets/coffe-grinder.gif" alt="coffe grinder" />
+              <img src="/assets/coffe-grinder.gif" alt="coffe grinder" />
             </div>
           </div>
         </div>

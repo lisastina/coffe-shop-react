@@ -4,49 +4,49 @@ import Bean from "./Bean";
 const Menu = () => {
   let menuItems = [
     {
-      image: "public/assets/house-brew.png",
+      image: "/assets/house-brew.png",
       title: "House Brew",
       desc: "Our signature house brew",
       price: "32",
     },
     {
-      image: "public/assets/latte.png",
+      image: "/assets/latte.png",
       title: "Caffé Latte",
       desc: "Espresso with skimmed milk",
       price: "35",
     },
     {
-      image: "public/assets/cappucino.png",
+      image: "/assets/cappucino.png",
       title: "Cappucino",
       desc: "Double espresso with skimmed milk",
       price: "35",
     },
     {
-      image: "public/assets/espresso.png",
+      image: "/assets/espresso.png",
       title: "Espresso",
       desc: "Our signature espresso blend",
       price: "28",
     },
     {
-      image: "public/assets/americano.png",
+      image: "/assets/americano.png",
       title: "Americano",
       desc: "Double espresso with hot water",
       price: "30",
     },
     {
-      image: "public/assets/ice-latte.png",
+      image: "/assets/ice-latte.png",
       title: "Iced Latte",
       desc: "Cold latte with ice",
       price: "32",
     },
     {
-      image: "public/assets/frappe.png",
+      image: "/assets/frappe.png",
       title: "Mocha Frappino",
       desc: "Coffee shake with whipped cream",
       price: "35",
     },
     {
-      image: "public/assets/frappe-blueberry.png",
+      image: "/assets/frappe-blueberry.png",
       title: "Blueberry Frappino",
       desc: "Blueberry shake with whipped cream",
       price: "35",
@@ -59,13 +59,13 @@ const Menu = () => {
 
       {/* Beans */}
       <div className="bean wiggle menu__bean-1">
-        <Bean image={"public/assets/bean-1.png"} />
+        <Bean image={"/assets/bean-1.png"} />
       </div>
       <div className="bean wiggle menu__bean-2">
-        <Bean image={"public/assets/bean-2.png"} />
+        <Bean image={"/assets/bean-2.png"} />
       </div>
       <div className="bean wiggle menu__bean-3">
-        <Bean image={"public/assets/bean-4.png"} />
+        <Bean image={"/assets/bean-4.png"} />
       </div>
 
       <div className="menu__border">
@@ -88,13 +88,13 @@ const Menu = () => {
 
       {/* Beans */}
       <div className="bean wiggle menu__bean-4">
-        <Bean image={"public/assets/bean-1.png"} />
+        <Bean image={"/assets/bean-1.png"} />
       </div>
       <div className="bean wiggle menu__bean-5">
-        <Bean image={"public/assets/bean-2.png"} />
+        <Bean image={"/assets/bean-2.png"} />
       </div>
       <div className="bean wiggle menu__bean-6">
-        <Bean image={"public/assets/bean-4.png"} />
+        <Bean image={"/assets/bean-4.png"} />
       </div>
     </div>
   );
