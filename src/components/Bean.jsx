@@ -19,7 +19,7 @@ const Bean = ({ image }) => {
         beanImages[Math.floor(Math.random() * beanImages.length)];
 
       /* Replace bean with broken bean gif */
-      setImagePath(`./public/graphics/${randomBean}.gif`);
+      setImagePath(`./public/assets/${randomBean}.gif`);
 
       e.target.closest(".bean").classList.remove("wiggle");
       e.target.closest(".bean").classList.add("broken");
@@ -27,7 +27,7 @@ const Bean = ({ image }) => {
 
       /* prevent looping of gif when clicking other beans */
       setTimeout(() => {
-        setImagePath(`./public/graphics/${randomBean}.png`);
+        setImagePath(`./public/assets/${randomBean}.png`);
       }, 500);
     }
   };
