@@ -14,7 +14,14 @@ function App() {
       <div className="wide-content">
         <div className="image-with-text">
           <ImageWithText
-            image={"./graphics/link-hover-blue.gif"}
+            image={"./src/graphics/link-hover-blue.gif"}
+            title={"hej"}
+            text={"hej"}
+          />
+        </div>
+        <div className="image-with-text reverse">
+          <ImageWithText
+            image={"./src/graphics/drinking-coffe.gif"}
             title={"hej"}
             text={"hej"}
           />
@@ -24,16 +31,9 @@ function App() {
         <Menu />
       </div>
       <div className="wide-content">
-        <div className="image-with-text reverse">
-          <ImageWithText
-            image={"./graphics/link-hover-blue.gif"}
-            title={"hej"}
-            text={"hej"}
-          />
-        </div>
         <div className="image-with-text">
           <ImageWithText
-            image={"./graphics/link-hover-blue.gif"}
+            image={"./src/graphics/link-hover-blue.gif"}
             title={"hej"}
             text={"hej"}
           />

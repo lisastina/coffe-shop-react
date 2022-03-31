@@ -5,19 +5,19 @@ const Hero = () => {
     <div className="content">
       <div className="hero">
         {/*  Beans */}
-        {/* <div class="bean wiggle hero__bean-1">
+        {/* <div className="bean wiggle hero__bean-1">
         <img id="bean-1" src="{{ bean_1_path }}" alt="coffe bean">
       </div>
-      <div class="bean wiggle hero__bean-2">
+      <div className="bean wiggle hero__bean-2">
         <img id="bean-2" src="{{ bean_2_path }}" alt="coffe bean">
       </div>
-      <div class="bean wiggle hero__bean-3">
+      <div className="bean wiggle hero__bean-3">
         <img id="bean-2" src="{{ bean_2_path }}" alt="coffe bean">
       </div>
-      <div class="bean wiggle hero__bean-4">
+      <div className="bean wiggle hero__bean-4">
         <img id="bean-3" src="{{ bean_3_path }}" alt="coffe bean">
       </div>
-      <div class="bean wiggle hero__bean-5">
+      <div className="bean wiggle hero__bean-5">
         <img id="bean-4" src="{{ bean_4_path }}" alt="coffe bean">
       </div> */}
 
