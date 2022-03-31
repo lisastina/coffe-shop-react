@@ -1,3 +1,5 @@
+import Bean from "./Bean";
+
 const Contact = () => {
   return (
     <div className="content">
@@ -6,13 +8,13 @@ const Contact = () => {
 
         {/* Beans */}
         <div className="bean wiggle contact__bean-1">
-          <img id="bean-1" src="./src/graphics/bean-1.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-1.png"} />
         </div>
         <div className="bean wiggle contact__bean-2">
-          <img id="bean-2" src="./src/graphics/bean-2.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-2.png"} />
         </div>
         <div className="bean wiggle contact__bean-3">
-          <img id="bean-4" src="./src/graphics/bean-3.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-4.png"} />
         </div>
 
         <div className="map">

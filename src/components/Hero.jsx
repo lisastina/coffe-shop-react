@@ -1,4 +1,5 @@
 import OpeningHours from "./OpeningHours";
+import Bean from "./Bean";
 
 const Hero = () => {
   return (
@@ -6,19 +7,19 @@ const Hero = () => {
       <div className="hero">
         {/*  Beans */}
         <div className="bean wiggle hero__bean-1">
-          <img id="bean-1" src="./src/graphics/bean-1.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-1.png"} />
         </div>
         <div className="bean wiggle hero__bean-2">
-          <img id="bean-2" src="./src/graphics/bean-2.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-2.png"} />
         </div>
         <div className="bean wiggle hero__bean-3">
-          <img id="bean-2" src="./src/graphics/bean-2.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-2.png"} />
         </div>
         <div className="bean wiggle hero__bean-4">
-          <img id="bean-3" src="./src/graphics/bean-3.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-3.png"} />
         </div>
         <div className="bean wiggle hero__bean-5">
-          <img id="bean-4" src="./src/graphics/bean-4.png" alt="coffe bean" />
+          <Bean image={"./src/graphics/bean-4.png"} />
         </div>
 
         <h2 className="hero__subtitle">Welcome to</h2>
