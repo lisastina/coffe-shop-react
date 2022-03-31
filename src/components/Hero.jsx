@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className="hero__title">Lisa's Coffee Shop</h1>
 
         <div className="hero__image">
-          <img src="" alt="coffe-cheers" />
+          <img src="./src/graphics/coffe-shop.gif" alt="coffe-cheers" />
         </div>
 
         <h2 className="hero__subtitle">We serve coffee!</h2>

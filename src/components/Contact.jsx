@@ -19,7 +19,7 @@ const Contact = () => {
           <h2 className="contact__title">Visit us</h2>
 
           <div className="map__image">
-            <img src="" alt="map" />
+            <img src="./src/graphics/map.png" alt="map" />
           </div>
         </div>
         <div>
@@ -38,7 +38,7 @@ const Contact = () => {
             </ul>
 
             <div className="contact-info__image">
-              <img src="" alt="coffe grinder" />
+              <img src="./src/graphics/coffe-grinder.gif" alt="coffe grinder" />
             </div>
           </div>
         </div>
