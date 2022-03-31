@@ -1,6 +1,6 @@
 const OpeningHours = () => {
   return (
-    <div class="opening-hours">
+    <div className="opening-hours">
       <ul>
         <h2>Opening hours</h2>
         <li>Monday - Thursday: 7:00 - 19:00</li>

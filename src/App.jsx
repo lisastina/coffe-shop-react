@@ -2,19 +2,46 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import ImageWithText from "./components/ImageWithText";
 import Menu from "./components/Menu";
-import OpeningHours from "./components/OpeningHours";
 import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
-      <Navigation />
-      <Hero />
-      <ImageWithText />
-      <Menu />
-      <ImageWithText />
-      <ImageWithText />
-      <Contact />
+      <div className="content">
+        <Navigation />
+        <Hero />
+      </div>
+      <div className="wide-content">
+        <div className="image-with-text">
+          <ImageWithText
+            image={"./graphics/link-hover-blue.gif"}
+            title={"hej"}
+            text={"hej"}
+          />
+        </div>
+      </div>
+      <div className="content">
+        <Menu />
+      </div>
+      <div className="wide-content">
+        <div className="image-with-text reverse">
+          <ImageWithText
+            image={"./graphics/link-hover-blue.gif"}
+            title={"hej"}
+            text={"hej"}
+          />
+        </div>
+        <div className="image-with-text">
+          <ImageWithText
+            image={"./graphics/link-hover-blue.gif"}
+            title={"hej"}
+            text={"hej"}
+          />
+        </div>
+      </div>
+      <div className="content">
+        <Contact />
+      </div>
     </div>
   );
 }
