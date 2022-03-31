@@ -35,6 +35,7 @@ const Contact = () => {
             <ul className="address">
               <li>Lilla varvsgatan 8</li>
               <li>211 17 Malmö</li>
+              <li>Sweden</li>
             </ul>
 
             <div className="contact-info__image">
