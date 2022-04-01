@@ -68,6 +68,10 @@ const Menu = () => {
         <Bean image={"/assets/bean-4.png"} />
       </div>
 
+      <div className="menu__image">
+        <img src="/assets/menu-header.png" alt="menu header" />
+      </div>
+
       <div className="menu__border">
         <h2 className="menu__title">Coffee menu</h2>
 
