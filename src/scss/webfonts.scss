@@ -1,0 +1,25 @@
+/* felt tip woman - latin */
+@font-face {
+  font-family: "felt tip woman";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/felt-tip-woman.otf"); /* IE9 Compat Modes */
+  src: local(""), url("/assets/fonts/felt-tip-woman.otf") format("opentype");
+}
+/* chelsea market open - latin */
+@font-face {
+  font-family: "chelsea market open";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/chelsea-market-open.otf"); /* IE9 Compat Modes */
+  src: local(""),
+    url("/assets/fonts/chelsea-market-open.otf") format("opentype");
+}
+/* chelsea market pro - latin */
+@font-face {
+  font-family: "chelsea market pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/assets/fonts/chelsea-market-pro.otf"); /* IE9 Compat Modes */
+  src: local(""), url("/assets/fonts/chelsea-market-pro.otf") format("opentype");
+}
