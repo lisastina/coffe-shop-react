@@ -41,7 +41,7 @@ const Contact = () => {
             </ul>
 
             <div className="contact-info__image">
-              <img src="/assets/coffe-grinder.gif" alt="coffe grinder" />
+              <img src="/assets/coffe-grinder.gif" alt="coffee grinder" />
             </div>
           </div>
         </div>

@@ -18,7 +18,7 @@ function App() {
             image={"/assets/coffe-shop.png"}
             title={"Take a zip"}
             text={
-              "Lisa's coffee shop opened in Malmö in 2020 and since then many local coffee lovers have visited and helped us develop our coffee shop to what it is today. We are open every day, please to stop by and taste our famous house brew!"
+              "Lisa's Coffee Place opened in Malmö in 2020 and since then many local coffee lovers have visited and helped us develop our coffee shop to what it is today. We are open every day, please to stop by and taste our famous house brew!"
             }
           />
         </div>

@@ -24,7 +24,7 @@ const Hero = () => {
 
         <h2 className="hero__subtitle">Welcome to</h2>
 
-        <h1 className="hero__title">Lisa's Coffee Shop</h1>
+        <h1 className="hero__title">Lisa's Coffee Place</h1>
 
         <div className="hero__image">
           <img src="/assets/coffe-shop.gif" alt="coffe-cheers" />
